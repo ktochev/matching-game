@@ -11,10 +11,17 @@
 npm install
 ```
 
-3. Run the development server:
+3. Create .env.local file at root level and fill it with appropriate values
+
+```bash
+NEXT_PUBLIC_API_URL=<api-url-with-trailing-slash>
+NEXT_PUBLIC_API_TOKEN=<your-api-token>
+```
+
+4. Run the development server:
 
 ```bash
 npm run dev
 ```
 
-4. Enjoy!
+5. Enjoy!
